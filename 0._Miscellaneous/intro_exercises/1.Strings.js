@@ -65,7 +65,9 @@ const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
 
-const character2 = fact.charAt(17).toUpperCase() + fact.slice(0)
+
+
+const character2 = fact.replace('j', 'J')
 
 console.log(character2)
 

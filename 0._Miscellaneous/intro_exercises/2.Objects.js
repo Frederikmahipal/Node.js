@@ -9,7 +9,7 @@ const alienMessage = {
 
 // Log the message 
 
-console.log(alienMessage)
+console.log(alienMessage.message)
 
 // --------------------------------------
 // Exercise 2 - Defining an object. 
@@ -31,7 +31,7 @@ const stackOverflow = {};
 
 stackOverflow.isAllowed = true
 
-console.log(stackOverflow)
+console.log(stackOverflow.isAllowed)
 
 // --------------------------------------
 // Exercise 4 - Remove a property 
