@@ -9,3 +9,4 @@ console.log(newTotal)
 
 const balanceEquals = total === newTotal
 console.log(balanceEquals)
+
