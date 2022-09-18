@@ -13,7 +13,7 @@ const rifle = {
 
 const sniper = {
     name: "308",
-    type: "11mm",
+    type: "11mm"
 }
 
 const weapons = []
@@ -33,7 +33,7 @@ app.get( "/weapons/:id", ( req,res )=> {
     if (weapon !== undefined) {
         res.send({weapon});
     } else {
-        res.send({errorMessage: "weapon does not exist"});
+        res.send({errorMessage: "no weapon for given id"});
     }
     
 })
