@@ -23,7 +23,7 @@ export async function main(name, email, message) {
   let info = await transporter.sendMail({
     from: name, // sender address
     to: email, // list of receivers
-    subject: "pokemon - contact page", // Subject line
+    subject: "pokemons", // Subject line
     text: message, // plain text body
   });
 
